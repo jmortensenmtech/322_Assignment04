@@ -2,6 +2,8 @@
 
 Jak Mortensen 9-30-25 CSCI 322 Software Engineering
 
+[GitHub Repository Link](https://github.com/jmortensenmtech/322_Assignment04)
+
 The purpose of this assignment to compare the formatting of the outputs of `printf` in C and `print` in Python. 
 
 > **Note**: Formatting outputs matters because it ensures readability and understanding. Being able to easily understand the output enhances usability and the overall user experience.
@@ -68,18 +70,18 @@ return 0;
 
 ```python
 f = 3.14159 
-print("%8.2f" % f) 
-print("%08.2f" % f) 
-print("%e" % f)
+print("%8.2f" % f)  # width 8, 2 decimals
+print("%08.2f" % f) # pad with zeros
+print("%e" % f)     # scientific notation
 ```
 
 #### F-strings
 
 ```python
 f = 3.14159 
-print(f"{f:8.2f}") 
-print(f"{f:08.2f}") 
-print(f"{f:e}")
+print(f"{f:8.2f}")  # width 8, 2 decimals
+print(f"{f:08.2f}") # pad with zeros
+print(f"{f:e}")     # scientific notation
 ```
 
 **These all will output:**
@@ -109,8 +111,8 @@ return 0;
 
 ```python
 s = "Hello" 
-print("%-10s!" % s) 
-print("%10s!" % s)
+print("%-10s!" % s) # left-aligned, width 10
+print("%10s!" % s)  # right-aligned, width 10
 ```
 
 **C99 printf and Python % print will output:**
@@ -124,9 +126,9 @@ Hello     !
 
 ```python
 s = "Hello" 
-print(f"{s:<10}!") 
-print(f"{s:>10}!") 
-print(f"{s:^10}!")
+print(f"{s:<10}!") # left aligned, width 10
+print(f"{s:>10}!") # right aligned, width 10
+print(f"{s:^10}!") # center aligned, width 10
 ```
 
 **Python F-strings will output:**
