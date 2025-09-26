@@ -158,3 +158,9 @@ Hello     !
 - [C99 printf reference](https://en.cppreference.com/w/c/io/fprintf)
 - [Python old-style % formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string)
 - [Python f-strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+
+---
+
+## Image
+
+![Image](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/12/c-programming-vs-python-programming.jpg)
