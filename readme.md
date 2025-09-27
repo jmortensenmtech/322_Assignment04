@@ -139,6 +139,8 @@ Hello     !
   Hello   !
 ```
 
+---
+
 ### Formatting Tips
 - For `integers`, use specifiers in C and Python to determine width, signs, and padding. EX: adding a plus sign or leading zeros.
 - For `Floats`, use format options in either language to set decimal places or change to scientific notation. EX: Displaying a number with two decimal places.
